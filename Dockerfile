@@ -5,13 +5,16 @@ RUN pip install keras
 RUN pip install Flask
 
 # Launchbot labels
-LABEL name.launchbot.io="Learning Machines"
-LABEL workdir.launchbot.io="/usr/workdir"
-LABEL 8888.port.launchbot.io="Jupyter Notebook"
-LABEL 6006.port.launchbot.io="Tensorflow Dashboard"
+#LABEL name.launchbot.io="Learning Machines"
+#LABEL workdir.launchbot.io="/usr/workdir"
+#LABEL 8888.port.launchbot.io="Jupyter Notebook"
+#LABEL 6006.port.launchbot.io="Tensorflow Dashboard"
 
 # Set the working directory
 WORKDIR /usr/workdir
+
+# Copy repo files to
+# ADD . /usr/workdir
 
 # Expose ports
 EXPOSE 8888
