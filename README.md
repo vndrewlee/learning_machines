@@ -11,3 +11,8 @@ This repo contains:
 * A Dockerfile to help you get up and running with TensorFlow, Jupyter Notebooks and a few related tools.
 
 Please see the [LaunchBot Getting Started Tutorial](http://launchbot.io/docs/tutorial/getting-started) for instructions on how to install Docker and LaunchBot.
+
+
+```
+docker run -d -p 4000:8888 -v ~/Documents/learning_machines:/usr/workdir learning_machines
+```
