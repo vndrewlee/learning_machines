@@ -14,5 +14,5 @@ Please see the [LaunchBot Getting Started Tutorial](http://launchbot.io/docs/tut
 
 
 ```
-docker run -d -p 4000:8888 -v ~/Documents/learning_machines:/usr/workdir learning_machines
+docker run -d -p 4000:8888 -v ~/Documents/itp_coursework/learningMachines_21767/05_mnist/learning_machines:/usr/workdir learning_machines
 ```
